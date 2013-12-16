@@ -1,0 +1,34 @@
+{
+  "name": "post-ld-28",
+  "description": "Ludum Dare 28 concept based game",
+  "version": "0.0.0",
+  "main": "index.js",
+  "browser": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/supervisor -q -w rework.js.server.js,build.js,bundle.js server.js",
+    "prepublish": "node build"
+  },
+  "author": "Robo <hop2deep@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/deepak1556/ld-28"
+  },
+  "keywords": [
+    "game",
+    "Ludum Dare",
+    "2d"
+  ],
+  "dependencies": {
+    "ecstatic": "~0.4.13",
+    "uglifyify": "~1.0.1",
+    "watchify": "~0.4.1",
+    "uglify-js": "~2.4.7",
+    "through": "~2.3.4",
+    "rework": "~0.18.3",
+    "raf": "0.0.3",
+    "rework-npm": "~0.1.0",
+    "clean-css": "~2.0.2",
+    "autoprefixer": "~0.8.20131213"
+  }
+}
